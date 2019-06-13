@@ -1,4 +1,15 @@
+var counter=0;
+function takeANumber(katzDeliLine)
+{
+  
+  counter++;
+  katzDeliLine.push(counter)
+  return `you have ticket number ${counter}`
+}
+
+
 function takeANumber(katzDeliLine,b)
+//no nome-ticket dispenser- number 
 {
 
 katzDeliLine.push(b);
@@ -27,6 +38,7 @@ else
  
 return 'The line is currently empty.';
 }
+
 
 function nowServing(katzDeliLine) {
   
